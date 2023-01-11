@@ -1,0 +1,103 @@
+.container{
+  width: 100%;
+  height: calc(87vh - 1px);
+  padding: 0 9% 0 9%;
+  display: flex;
+  flex-direction: row;
+}
+
+.headlineContainer{
+  background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+  height: 100vh;
+}
+
+.headlineContent{
+  flex: 6rem;
+  margin-top: 160px;
+}
+
+.headlineImage{
+  margin-top: 40px;
+  flex: 6rem;
+}
+
+.imageContainer {
+  position: relative;
+
+  width: 100%;
+
+  > div {
+    position: unset !important;
+  }
+
+  .image {
+    margin-left: -50px;
+    object-fit: contain;
+    width: 100% !important;
+    position: relative !important;
+    height: unset !important;
+  }
+}
+
+.community{
+  border: none;
+}
+
+.communityButton{
+  font-family: Inter, serif;
+  font-weight: 500;
+  border: none;
+  font-size: 16px;
+  color: #217BF4;
+  background: rgba(33, 123, 244, 0.1);
+  padding: 15px 45px;
+  border-radius: 10px;
+}
+
+.solutionsForCommunity{
+  margin-top: 25px;
+  color: #0A093D;
+  font-family: Inter, serif;
+  font-weight: 700;
+  font-size: 75px;
+}
+
+.moreThan{
+  margin-top: 20px;
+  width: 85%;
+  line-height: 160%;
+  font-family: Inter, serif;
+  font-weight: 400;
+  color: #656464;
+  font-size: 24px;
+}
+
+.buttons{
+  margin-top: 70px;
+  width: 100%;
+}
+
+.about{
+  padding: 35px 59px;
+  border: none;
+  background: #217BF4;
+  border-radius: 21px;
+  color: white;
+  font-family: Inter, serif;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 10px;
+}
+
+.invite{
+  margin-left: 25px;
+  padding: 35px 59px;
+  background: none;
+  border-radius: 21px;
+  color: #217BF4;
+  font-family: Inter, serif;
+  border: 1px solid #217BF4;
+  line-height: 10px;
+  font-weight: 400;
+  font-size: 19px;
+}
