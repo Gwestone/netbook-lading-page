@@ -24,8 +24,8 @@ function Description() {
             className={styles.image}
             src="/comm.png"
             alt="alt"
-            width={270 * 1.4}
-            height={368 * 1.4}
+            width={270}
+            height={368}
           />
         </div>
         <div className={styles.row}>
@@ -34,8 +34,8 @@ function Description() {
               className={styles.image}
               src="/computer.png"
               alt="alt"
-              width={265 * 1.4}
-              height={238 * 1.4}
+              width={265}
+              height={238}
             />
           </div>
           <div className={styles.down}>
@@ -43,8 +43,8 @@ function Description() {
               className={styles.image}
               src="/networking.png"
               alt="alt"
-              width={265 * 1.4}
-              height={238 * 1.4}
+              width={265}
+              height={238}
             />
           </div>
         </div>

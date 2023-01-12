@@ -8,8 +8,8 @@ function Navbar() {
           <Image
             priority
             src="./netbook.svg"
-            width={49}
-            height={49}
+            width={40}
+            height={40}
             alt="Logo"
             className={styles.logo_icon}
           />

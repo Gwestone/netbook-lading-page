@@ -11,26 +11,25 @@
   display: inline-block;
   position: relative;
   float: left;
-  top: 50%;
+  top: 40%;
 }
 
 .right_menu{
   display: inline-block;
   position: relative;
   float: right;
-  top: 50%;
+  top: 40%;
 }
 
 .logo{
+  margin-top: -10px;
   position: absolute;
   display: inline-block;
   color: #2B2B39;
   font-family: Poppins, serif;
   font-weight: 600;
-  margin-right: 2.5vw;
   font-size: 32px;
   line-height: 10px;
-  margin-top: -21px;
 }
 
 .logo_icon{
@@ -41,7 +40,7 @@
   display: inline-block;
   vertical-align: super;
   margin-left: 7px;
-  font-size: 33px;
+  font-size: 25px;
 }
 
 .option{
@@ -50,19 +49,19 @@
   font-family: Inter, serif;
   font-weight: 500;
   margin-left: 2.5vw;
-  font-size: 19px;
+  font-size: 15px;
   line-height: 10px;
 }
 
 .option>button{
-  padding: 29px 59px;
+  padding: 22px 50px;
   border: none;
   background: #217BF4;
   border-radius: 21px;
   color: white;
   font-family: Inter, serif;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 10px;
   margin-top: -30%;
 }
@@ -81,7 +80,7 @@
 }
 
 .search{
-  font-size: 16px;
+  font-size: 12px;
   font-weight:400;
   -webkit-box-shadow: inset 0px -1px 0px 0px rgba(33,123,244,0.1);
   -moz-box-shadow: inset 0px -1px 0px 0px rgba(33,123,244,0.1);
