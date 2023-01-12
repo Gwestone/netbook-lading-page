@@ -1,7 +1,8 @@
 .navbar_container{
-  width: 100%;
-  height: calc(13vh + 1px);
-  padding: 0 9% 0 9%;
+  max-width: 1444px;
+  margin: 0 auto 30px auto;
+  padding: 0 100px;
+  height: calc(13vh);
   -webkit-box-shadow: inset 0px -1px 0px 0px rgba(33,123,244,0.1);
   -moz-box-shadow: inset 0px -1px 0px 0px rgba(33,123,244,0.1);
   box-shadow: inset 0px -1px 0px 0px rgba(33,123,244,0.1);

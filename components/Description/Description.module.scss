@@ -1,9 +1,9 @@
 .container{
-  margin-top: 13.5vh;
   width: 100%;
-  padding: 0 9%;
+  max-width: 1444px;
+  padding: 0 100px;
+  margin: 13.5vh auto 30px auto;
   display: flex;
-  margin-bottom: 30px;
 }
 
 //.container>div{
@@ -11,11 +11,14 @@
 //}
 
 .text{
-  flex: 50vw;
+  flex: 1rem;
+  margin-top: 10vh;
 }
 
 .images{
   flex: 1rem;
+  display: flex;
+  flex-direction: row;
 }
 
 .whats{
@@ -31,20 +34,17 @@
   font-size: 32px;
   color: #0A093D;
   width: 70%;
+  margin-top: 20px;
 }
 
 .surveys{
+  margin-top: 25px;
   width: 72%;
   font-family: Inter, serif;
   font-weight: 400;
   font-size: 17px;
   line-height: 28px;
   color: #656464;
-}
-
-.images{
-  display: flex;
-  flex-direction: row;
 }
 
 .row{
@@ -65,4 +65,22 @@
 .image{
   margin: 15px;
   border-radius: 15px;
+}
+
+.list{
+  margin-top: 30px;
+  margin-left: 18px;
+}
+
+.list>li{
+  margin-top: 11px;
+  font-family: Inter, serif;
+  font-weight: 400;
+  color: #0A093D;
+  font-size: 20px;
+  list-style: url("/bullet.svg");
+}
+
+.list>li::marker{
+  color: #217BF4;
 }

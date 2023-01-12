@@ -12,7 +12,7 @@ function Description() {
           Recent surveys have indicated that small businesses recognise the need{" "}
           they have to connect with consumer.
         </div>
-        <ul>
+        <ul className={styles.list}>
           <li>Groups</li>
           <li>Messages</li>
           <li>Share</li>
