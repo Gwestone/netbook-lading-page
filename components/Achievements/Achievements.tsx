@@ -1,18 +1,23 @@
 import { inspect } from "util";
 import styles from "./Achievements.module.scss";
+import Image from "next/image";
 
 export default function Achievements() {
   return (
     <div className={styles.container}>
       <div className={styles.cards}>
         <div className={styles.rating}>
-          <div>4.8 Rating</div>
-          <div>+836k Members</div>
-          <div>
+          <div className={styles.ratingIcon}>
+            <Image src={"./star.svg"} alt="star" width={25} height={25} />
+            4.8 Rating
+          </div>
+          <div className={styles.members}>+836k Members</div>
+
+          <div className={styles.desc}>
             More than 2 billion we people over countries use socibooks we to
             stay in touch with friends.
           </div>
-          <div>Join Our Community &#8594;</div>
+          <div className={styles.join}>Join Our Community &#8594;</div>
         </div>
         <div className={styles.awards}>
           <div>Awards</div>
