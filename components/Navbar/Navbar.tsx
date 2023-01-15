@@ -7,7 +7,7 @@ function Navbar() {
         <div className={styles.logo}>
           <Image
             priority
-            src="./netbook.svg"
+            src="./Icons/netbook.svg"
             width={40}
             height={40}
             alt="Logo"
@@ -26,7 +26,7 @@ function Navbar() {
         <div className={styles.option + " " + styles.search}>
           <Image
             className={styles.searchGlass}
-            src="./searchGlass.svg"
+            src="./Icons/searchGlass.svg"
             alt={"search glass icon"}
             width={12}
             height={12}

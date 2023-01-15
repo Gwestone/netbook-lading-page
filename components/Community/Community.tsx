@@ -16,7 +16,7 @@ export default function Community() {
           <div className={styles.card}>
             <div className={styles.icon}>
               <Image
-                src={"./communityIcons/people.svg"}
+                src={"./Icons/people.svg"}
                 alt={"people"}
                 height={105}
                 width={105}
@@ -30,7 +30,7 @@ export default function Community() {
           <div className={styles.card}>
             <div className={styles.icon}>
               <Image
-                src={"./communityIcons/people2.svg"}
+                src={"./Icons/people2.svg"}
                 alt={"people"}
                 height={105}
                 width={105}
@@ -44,7 +44,7 @@ export default function Community() {
           <div className={styles.card}>
             <div className={styles.icon}>
               <Image
-                src={"./communityIcons/chat.svg"}
+                src={"./Icons/chat.svg"}
                 alt={"people"}
                 height={105}
                 width={105}
@@ -58,7 +58,7 @@ export default function Community() {
           <div className={styles.card}>
             <div className={styles.icon}>
               <Image
-                src={"./communityIcons/puzzle.svg"}
+                src={"./Icons/puzzle.svg"}
                 alt={"people"}
                 height={105}
                 width={105}
@@ -67,13 +67,13 @@ export default function Community() {
             <div className={styles.cartTitle}>Custom Module</div>
             <div className={styles.cardText}>
               You can create Members, Groups Module. We already created 3
-              modules. It's by drag & drop live builder.
+              modules. It &apos s by drag & drop live builder.
             </div>
           </div>
           <div className={styles.card}>
             <div className={styles.icon}>
               <Image
-                src={"./communityIcons/checkList.svg"}
+                src={"./Icons/checkList.svg"}
                 alt={"people"}
                 height={105}
                 width={105}
@@ -87,7 +87,7 @@ export default function Community() {
           <div className={styles.card}>
             <div className={styles.icon}>
               <Image
-                src={"./communityIcons/list.svg"}
+                src={"./Icons/list.svg"}
                 alt={"people"}
                 height={105}
                 width={105}

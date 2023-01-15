@@ -8,7 +8,7 @@ export default function Achievements() {
       <div className={styles.cards}>
         <div className={styles.card}>
           <div className={styles.cardIcon}>
-            <Image src={"./star.svg"} alt="star" width={25} height={25} />
+            <Image src={"./Icons/star.svg"} alt="star" width={25} height={25} />
             4.8 Rating
           </div>
           <div className={styles.cardTitle}>
@@ -33,13 +33,13 @@ export default function Achievements() {
 
         <div className={styles.card}>
           <div className={styles.cardIcon}>
-            <Image src={"./cup.svg"} alt="star" width={25} height={25} />
+            <Image src={"./Icons/cup.svg"} alt="star" width={25} height={25} />
             Awards
           </div>
           <div className={styles.cardSubTitle}>
             <Image
               className={styles.cardImages}
-              src={"/github.png"}
+              src={"/Icons/github.png"}
               alt="last"
               width={50}
               height={50}

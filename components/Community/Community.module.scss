@@ -66,8 +66,11 @@
   height: 185px;
   background: white;
   margin: 20px;
-  box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
   border-radius: 14px;
+}
+
+.card:nth-child(1){
+  box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
 }
 
 .icon{
