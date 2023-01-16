@@ -1,0 +1,88 @@
+.wrapper{
+  width: 100%;
+  height: fit-content;
+  background: #E5F0FD;
+  margin-top: 130px;
+}
+
+.container{
+  width: 100%;
+  height: 562px;
+  max-width: 1444px;
+  padding: 0 130px;
+  margin: 0 auto 0 auto;
+
+  display: flex;
+}
+
+.container>div{
+  flex: 1;
+}
+
+.getAppSubTitle{
+  margin-top: 122px;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  color: #217BF4;
+}
+
+.getAppTitle{
+  margin-top: 10px;
+  width: 351px;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 52px;
+  color: #0A093D;
+}
+
+.getAppText{
+
+  margin-top: 20px;
+  width: 340px;
+
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #656464;
+}
+
+.getAppLinks{
+
+  margin-top: 40px;
+
+  width: 320px;
+  display: flex;
+  flex-direction: row;
+}
+
+.getAppLinks>img{
+  flex: 150px 1;
+  max-width: 150px;
+}
+
+.getAppLinks>img:nth-child(1){
+  margin-right: 20px;
+}
+
+.getAppLinks>img:hover{
+  cursor: pointer;
+}
+
+.getAppRight{
+
+}
+
+.phoneImage{
+  position: relative;
+  transform: translateX(50%);
+  width: 500px;
+  height: 100%;
+}
