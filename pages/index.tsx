@@ -5,6 +5,7 @@ import Achievements from "../components/Achievements/Achievements";
 import Community from "../components/Community/Community";
 import Team from "../components/Team/Team";
 import GetApplication from "../components/GetApplication/GetApplication";
+import LastestNews from "../components/LastestNews/LastestNews";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Community />
       <Team />
       <GetApplication />
+      <LastestNews />
     </>
   );
 }
