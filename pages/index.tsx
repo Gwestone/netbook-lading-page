@@ -6,6 +6,7 @@ import Community from "../components/Community/Community";
 import Team from "../components/Team/Team";
 import GetApplication from "../components/GetApplication/GetApplication";
 import LastestNews from "../components/LastestNews/LastestNews";
+import Footer from "../components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Team />
       <GetApplication />
       <LastestNews />
+      <Footer />
     </>
   );
 }

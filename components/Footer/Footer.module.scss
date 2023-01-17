@@ -1,0 +1,199 @@
+.wrapper{
+  width: 100%;
+  height: 485px;
+}
+
+.container{
+  width: 100%;
+  max-width: 1444px;
+  padding: 0 130px;
+  margin: 0 auto 0 auto;
+}
+
+.top{
+  background: #2B2B39;
+  height: 385px;
+  display: flex;
+  padding: 78px 0;
+}
+
+.bottom{
+  background: #20202D;
+  height: 100px;
+  position: relative;
+  bottom: 0;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+}
+
+.menuOption{
+  margin-right: 98px;
+}
+
+.menuTitle{
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+
+}
+
+.menuLink{
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 46px;
+
+  letter-spacing: 0.0125em;
+
+  color: #E7E7E7;
+
+}
+
+.menuLinks{
+  margin-top: 22px;
+}
+
+.newsTitle{
+  width: 200px;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+
+  color: #FFFFFF;
+
+  margin-bottom: 18px;
+
+}
+
+.newsText{
+  width: 300px;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+
+  color: #E7E7E7;
+
+  margin-bottom: 32px;
+}
+
+.newsEmail{
+  width: 350px;
+  border: white solid 1px;
+  border-radius: 12px;
+  position: relative;
+  height: 48px;
+}
+
+.emailEnter{
+
+  position: absolute;
+  left: 30%;
+  top: 50%;
+  transform: translate(-30%, -50%);
+
+  background: none;
+  border: none;
+
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 12px;
+  /* identical to box height, or 86% */
+
+  letter-spacing: 0.0125em;
+
+  color: #717179;
+}
+
+.emailEnter:focus{
+  outline: none;
+
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 12px;
+  /* identical to box height, or 86% */
+
+  letter-spacing: 0.0125em;
+
+  color: white;
+
+}
+
+.emailSubmit{
+  border: none;
+  position: absolute;
+  right: 0;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  width: 126px;
+  height: 48px;
+  border-radius: 12px;
+  padding: 16px 24px;
+
+  text-align: center;
+
+  color: #2B2B39;
+
+}
+
+.footer{
+
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+
+  display: flex;
+  flex-direction: row;
+}
+
+.copyright{
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 14px;
+  line-height: 14px;
+  /* identical to box height, or 100% */
+
+
+  color: #F6F6F6;
+}
+
+.logo{
+  margin-top: 12px;
+  margin-left: auto;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height, or 100% */
+
+
+  color: #FFFFFF;
+}
+
+.social{
+  margin-left: auto;
+}
+
+.social>img{
+  margin-right: 7px;
+}
