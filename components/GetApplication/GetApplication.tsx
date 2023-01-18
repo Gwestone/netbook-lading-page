@@ -33,13 +33,13 @@ export default function GetApplication() {
         </div>
         <div className={styles.getAppRight}>
           {/*TODO complete image*/}
-          {/*<Image*/}
-          {/*  className={styles.phoneImage}*/}
-          {/*  src={"./misc/phone.svg"}*/}
-          {/*  alt={"phone"}*/}
-          {/*  width={440}*/}
-          {/*  height={560}*/}
-          {/*/>*/}
+          <Image
+            className={styles.phoneImage}
+            src={"./misc/phone.svg"}
+            alt={"phone"}
+            width={470}
+            height={562}
+          />
         </div>
       </div>
     </div>
