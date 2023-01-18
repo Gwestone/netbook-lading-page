@@ -17,7 +17,7 @@ export default function LastestNews() {
           <div className={styles.cardTitle}>
             <div className={styles.line}></div>
             <div className={styles.text}>
-              It Does Not Matter Hows Sawdwadwaddadlowly go as Long
+              It Does Not Matter Hows Slowly go as Long
             </div>
           </div>
           <div className={styles.cardLink}>Continue Reading &rarr;</div>

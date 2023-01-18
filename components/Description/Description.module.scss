@@ -1,7 +1,7 @@
 .container{
   width: 100%;
   max-width: 1444px;
-  padding: 0 100px;
+  padding: 0 135px;
   margin: 10.5vh auto 30px auto;
   display: flex;
 }
@@ -31,10 +31,14 @@
 .whyJoin{
   font-family: Inter, serif;
   font-weight: 700;
-  font-size: 32px;
   color: #0A093D;
   width: 70%;
-  margin-top: 20px;
+  margin-top: 10px;
+
+  font-style: normal;
+  font-size: 36px;
+  line-height: 48px;
+
 }
 
 .surveys{

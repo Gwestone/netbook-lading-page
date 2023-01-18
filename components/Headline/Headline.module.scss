@@ -1,8 +1,8 @@
 .container{
   max-width: 1444px;
   margin: 0 auto 30px auto;
-  padding: 0 100px;
-  height: 84vh;
+  padding: 0 135px;
+  height: 656px;
   display: flex;
   flex-direction: row;
 }
@@ -14,7 +14,7 @@
 
 .headlineContent{
   flex: 6rem;
-  margin-top: 16vh;
+  margin-top: 125px;
 }
 
 .headlineImage{
@@ -34,9 +34,8 @@
   .image {
     margin-left: -50px;
     object-fit: contain;
-    width: 100% !important;
-    position: relative !important;
-    height: unset !important;
+    width: 585px;
+    height: 501px;
   }
 }
 
@@ -53,14 +52,25 @@
   background: rgba(33, 123, 244, 0.1);
   padding: 12px 30px;
   border-radius: 10px;
+
+  font-style: normal;
+  line-height: 12px;
+  /* identical to box height, or 100% */
+
+  text-align: center;
+
 }
 
 .solutionsForCommunity{
   margin-top: 25px;
-  color: #0A093D;
-  font-family: Inter, serif;
   font-weight: 700;
-  font-size: 50px;
+
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-size: 56px;
+  line-height: 66px;
+
+  color: #0A093D;
 }
 
 .moreThan{
@@ -82,22 +92,24 @@
   padding: 25px 40px;
   border: none;
   background: #217BF4;
-  border-radius: 21px;
+  border-radius: 14px;
   color: white;
   font-family: Inter, serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 10px;
+
+  box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
 }
 
 .invite{
-  margin-left: 25px;
+  margin-left: 18px;
   padding: 25px 40px;
   background: none;
-  border-radius: 21px;
+  border-radius: 14px;
   color: #217BF4;
   font-family: Inter, serif;
-  border: 1px solid #217BF4;
+  border: 1px solid rgba(31, 123, 244, 0.5);
   line-height: 10px;
   font-weight: 400;
   font-size: 15px;

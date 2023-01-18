@@ -8,7 +8,13 @@ export default function Achievements() {
       <div className={styles.cards}>
         <div className={styles.card}>
           <div className={styles.cardIcon}>
-            <Image src={"./Icons/star.svg"} alt="star" width={25} height={25} />
+            <Image
+              className={styles.cardTitleImage}
+              src={"./Icons/star.svg"}
+              alt="star"
+              width={25}
+              height={25}
+            />
             4.8 Rating
           </div>
           <div className={styles.cardTitle}>
@@ -33,7 +39,13 @@ export default function Achievements() {
 
         <div className={styles.card}>
           <div className={styles.cardIcon}>
-            <Image src={"./Icons/cup.svg"} alt="star" width={25} height={25} />
+            <Image
+              className={styles.cardTitleImage}
+              src={"./Icons/cup.svg"}
+              alt="star"
+              width={25}
+              height={25}
+            />
             Awards
           </div>
           <div className={styles.cardSubTitle}>
@@ -56,6 +68,7 @@ export default function Achievements() {
             Discover me &#8594;
           </div>
         </div>
+
         <div className={styles.achievement}>
           <div className={styles.achievementTitle}>Our Achievement</div>
           <div className={styles.achievementText}>

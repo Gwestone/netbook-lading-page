@@ -26,13 +26,11 @@ export default function Headline() {
         </div>
         <div className={styles.headlineImage}>
           <div className={styles.imageContainer}>
-            <img
-              className={styles.image}
-              alt="headline image"
-              src="./HeadlineImage.svg"
-              decoding="async"
-              data-nimg="fill"
-              loading="lazy"
+            <Image
+              src={"./HeadlineImage.svg"}
+              alt={"headline"}
+              width={585}
+              height={501}
             />
           </div>
         </div>
