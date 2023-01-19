@@ -100,3 +100,23 @@
 .cardImage{
   border-radius: 20px;
 }
+
+@media screen and (max-width: 920px) {
+
+  .cards{
+    display: initial;
+    justify-content: center;
+  }
+
+  .card{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container{
+    padding: 0 0;
+    height: fit-content;
+  }
+
+}

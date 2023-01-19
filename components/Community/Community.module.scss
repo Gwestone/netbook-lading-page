@@ -1,5 +1,5 @@
 .container{
-  height: 100vh;
+  height: fit-content;
   max-width: 1244px;
   margin: 10vh auto 0 auto;
 }
@@ -107,4 +107,26 @@
 
   color: #656464;
 
+}
+
+@media screen and (max-width: 920px) {
+  .cards{
+    display: initial;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  .card{
+    max-width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cardText{
+    max-width: 60vw;
+    text-overflow: ellipsis;
+    max-height: 80px;
+    overflow: hidden;
+  }
+  .commnityText{
+    width: 100vw;
+  }
 }

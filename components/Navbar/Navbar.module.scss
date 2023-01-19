@@ -149,13 +149,13 @@
 
   color: #FFFFFF;
 
-  box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+  box-shadow: 0 7px 22px -6px rgba(33, 123, 244, 0.34);
 
 }
 
 //adaptive part
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 920px) {
   .container{
     max-width: 100%;
     padding: 0;
@@ -168,6 +168,7 @@
   }
   .right_menu{
     margin-top: 30px;
+    right: initial;
   }
   .navbar{
     margin-left: 2%;
@@ -178,8 +179,15 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 730px) and (max-width: 919px) {
+  .wrapper{
+    height: 90px;
+  }
   .right_menu{
-    right: initial;
+    margin-top: 0;
+    right: 10%;
+  }
+  .left_menu{
+    margin-top: 20px;
   }
 }

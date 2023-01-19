@@ -88,3 +88,19 @@
 .list>li::marker{
   color: #217BF4;
 }
+
+@media screen and (max-width: 920px) {
+  .container{
+    max-width: 100%;
+    padding: 0 26px;
+    margin: 0 auto 30px auto;
+    height: 656px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .images{
+    display: none;
+  }
+
+}

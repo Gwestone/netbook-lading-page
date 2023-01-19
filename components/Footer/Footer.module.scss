@@ -179,7 +179,7 @@
 .logo{
   margin-top: 12px;
   margin-left: auto;
-  font-family: 'Poppins';
+  font-family: 'Poppins', serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -196,4 +196,32 @@
 
 .social>img{
   margin-right: 7px;
+}
+
+@media screen and (max-width: 920px) {
+
+  .logo{
+    display: none;
+  }
+
+  .container{
+    width: 100%;
+    max-width: 1444px;
+    padding: 0 3%;
+    margin: 0 auto 0 auto;
+  }
+
+  .menuOption:nth-child(1){
+    display: none;
+  }
+  .menuOption:nth-child(3){
+    display: none;
+  }
+  .subscribeNews{
+    display: none;
+  }
+  .menu{
+    margin-left: 50px;
+  }
+
 }
