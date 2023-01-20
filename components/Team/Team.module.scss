@@ -70,6 +70,11 @@
   opacity: 0.8;
 }
 
+.buttonsGroup>button:hover{
+  color: #217BF4;
+  cursor: pointer;
+}
+
 .buttonsGroup>button.active{
   flex: 1;
   margin: 8px;

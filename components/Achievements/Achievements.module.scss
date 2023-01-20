@@ -34,6 +34,11 @@
   box-shadow: none;
 }
 
+.cards>div:nth-child(2):hover{
+  box-shadow: 0 26px 49px rgba(146, 165, 184, 0.14);
+  border: none;
+}
+
 .card{
   display: flex;
   flex-direction: column;
@@ -101,6 +106,7 @@
 .achievement{
   //padding: 0 20px;
   //margin-left: 110px;
+  padding: 20px;
 }
 
 .achievementTitle{

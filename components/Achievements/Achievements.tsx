@@ -1,11 +1,17 @@
-import { inspect } from "util";
 import styles from "./Achievements.module.scss";
 import Image from "next/image";
-
+import {useInView} from "react-intersection-observer";
 export default function Achievements() {
+
+  const {ref, inView} = useInView({
+    threshold: 1,
+    delay: 1,
+    triggerOnce: true
+  });
+
   return (
     <div className={styles.container}>
-      <div className={styles.cards}>
+      <div className={styles.cards} ref={ref}>
         <div className={styles.card}>
           <div className={styles.cardIcon}>
             <Image
@@ -69,7 +75,7 @@ export default function Achievements() {
           </div>
         </div>
 
-        <div className={styles.achievement}>
+        <div className={styles.achievement + " " + (inView ? `animate__animated animate__fadeInRight` : "default")}>
           <div className={styles.achievementTitle}>Our Achievement</div>
           <div className={styles.achievementText}>
             We are connecting You The Digital Life.

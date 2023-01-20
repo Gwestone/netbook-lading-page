@@ -1,6 +1,13 @@
 import styles from "./Team.module.scss";
 import Image from "next/image";
+import {useState} from "react";
 export default function Team() {
+
+  // TODO create animation for selection
+
+  type GetBy = "Newest" | "Popular" | "Active";
+  const [selected, setSelected] = useState<GetBy>("Active");
+
   return (
     <div className={styles.container}>
       <div className={styles.sectionSubTitle}>Valuable Team</div>
@@ -10,9 +17,9 @@ export default function Team() {
         it.
       </div>
       <div className={styles.buttonsGroup}>
-        <button>Newest</button>
-        <button>Popular</button>
-        <button className={styles.active}>Active</button>
+        <button onClick={()=>setSelected("Newest")} className={(selected == "Newest") ? styles.active : ""}>Newest</button>
+        <button onClick={()=>setSelected("Popular")} className={(selected == "Popular") ? styles.active : ""}>Popular</button>
+        <button onClick={()=>setSelected("Active")} className={(selected == "Active") ? styles.active : ""}>Active</button>
       </div>
 
       <div className={styles.authorsCards}>
